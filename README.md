@@ -26,7 +26,7 @@
 1. Установите ROS на вашу систему, следуя инструкциям, предоставленным на официальном сайте [ROS](http://www.ros.org/) или же следуя [инструкциям по установке Ubuntu и ROS](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
 
 2. Склонируйте репозиторий с кодом робот-симулятора и turtlebot3_teleop в catkin_ws/src на вашу локальную машину:
-git clone https://github.com/your-username/robot-simulator.git
+git clone https://github.com//Den4ikBS/ros_hw
 git clone https://github.com/ROBOTIS-GIT/turtlebot3
 
 3. Установите все необходимые зависимости. Если вы используете `apt` для управления пакетами ROS, выполните следующую команду:
