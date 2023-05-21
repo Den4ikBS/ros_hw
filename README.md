@@ -78,7 +78,7 @@ def talker_odom(pose, twist):
     msg = Odometry()
     msg.header.stamp = rospy.Time.now()
     msg.header.frame_id = "odom"
-    msg.child_frame_id = "odom"# "base_link" мб
+    msg.child_frame_id = "odom"
     msg.pose = pose 
     msg.twist = twist 
     rospy.loginfo(msg)
